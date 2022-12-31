@@ -1,0 +1,71 @@
+body {
+    font-family: 'Source Code Pro', monospace;
+    background-color: #1c1b22;
+    color: #fff;
+}
+
+.navbar {
+    font-family: 'Passion One', cursive;
+    background-color: #212529;
+}
+
+h1 {
+    font-family: 'Passion One', cursive;
+}
+
+hr {
+    background-color: #fff;
+}
+
+.ffooter{
+background:#212529;
+padding:1px 0px;
+text-align:center;
+}
+
+.ffooter .frow{
+width:100%;
+margin:1% 0%;
+padding:0.6% 0%;
+color:gray;
+font-size:0.8em;
+}
+
+.ffooter .frow a{
+text-decoration:none;
+color:gray;
+transition:0.5s;
+}
+
+.ffooter .frow a:hover{
+color:#fff;
+}
+
+.ffooter .frow ul{
+width:100%;
+}
+
+.ffooter .frow ul li{
+display:inline-block;
+margin:0px 30px;
+}
+
+.ffooter .frow a i{
+font-size:2em;
+margin:0% 1%;
+}
+
+@media (max-width:720px){
+.ffooter{
+text-align:left;
+padding:5%;
+}
+.ffooter .frow ul li{
+display:block;
+margin:10px 0px;
+text-align:left;
+}
+.ffooter .frow a i{
+margin:0% 3%;
+}
+}
