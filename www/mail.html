@@ -3,7 +3,12 @@
     <title>The Linux Bridge | Email Redirect</title>
 </head>
 <body>
-<h2>REDIRECTING</h2>
+<h1>The Linux Bridge</h1>
+<h3>OPENING EMAIL CLIENT</h3>
+<h2>Links</h2>
+<h3><a href="https://thelinuxbridge.org">thelinuxbridge.org</a>
+<h3><a href="mailto:support@thelinuxbridge.org?subject=I want to upgrade to Linux!&body=Hello, %0d%0aI want to take back my privacy from big tech companies who use shady tactics to track and steal my personal information by switching to Linux and using more free and open source software."</a>Example Email 1</h3>
+<h3><a href="mailto:support@thelinuxbridge.org?subject=I want to upgrade to Linux!&body=Hello, %0d%0aI want to prepare myself for technology-driven future by learning about using my computer and keeping safe both online and offline."</a>Example Email 2</h3>
 </body>
 <script>
     var randURLs = [
@@ -11,5 +16,5 @@
         "mailto:support@thelinuxbridge.org?subject=I want to upgrade to Linux!&body=Hello, %0d%0aI want to prepare myself for technology-driven future by learning about using my computer and keeping safe both online and offline."
     ];
     var randURL = Math.floor(Math.random() * randURLs.length);
-    window.location.href(randURLs[randURL]);
+    window.location.href = randURLs[randURL];
 </script>
