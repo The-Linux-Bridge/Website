@@ -1,0 +1,15 @@
+<html>
+<head>
+    <title>The Linux Bridge | Email Redirect</title>
+</head>
+<body>
+<h2>REDIRECTING</h2>
+</body>
+<script>
+    var randURLs = [
+        "mailto:support@thelinuxbridge.org?subject=I want to upgrade to Linux!&body=Hello, %0d%0aI want to take back my privacy from big tech companies who use shady tactics to track and steal my personal information by switching to Linux and using more free and open source software.",
+        "https://thelinuxbridge.org/contact.html"
+    ];
+    var randURL = Math.floor(Math.random() * randURLs.length);
+    window.open(randURLs[randURL]);
+</script>
